@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+
+.MenuBox a {
+  text-decoration: none;
+}
+
+
+table thead tr th{
+  font-weight: 700 !important;
+}
+
+.sortingArrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+
+.upDown {
+  display: flex;
+  flex-direction: column;  
+  padding-left: 10px;
+}
+.upDown div {
+  height: 11px;
+}
+
+.navContainer{
+  margin: 10px
+}
+
+.addContainer{
+  text-align: center; 
+  margin-top: 20px 
+}
+
+.tableContiner{
+  margin-top: 20px;
+}
+
+.taskDetails{
+text-align: center;
+}
+
+.taskDetailButton{
+  margin-top: 10px !important;
+  margin-left: 10px !important;
+}
